@@ -10,13 +10,7 @@ Welcome to Movie App! This is a React application that allows you to browse a li
     git clone <repository_url>
     ```
 
-2. Navigate to the project directory:
-
-    ```bash
-    cd movie-app
-    ```
-
-3. Install dependencies:
+2. Install dependencies:
 
     ```bash
     npm install
