@@ -51,7 +51,7 @@ function MovieList() {
             className="card bg-gray-700 p-4 rounded shadow-lg transform transition hover:scale-105 cursor-pointer flex flex-col justify-between"
             onClick={() => handleCardClick(movie.imdb_url)}
           >
-            <img src={getAbsoluteImageUrl(movie.image)} alt={movie.movie} className="w-full h-36 object-cover rounded-t" />
+            <img src={getAbsoluteImageUrl(movie.image)} alt={movie.image} className="w-full h-36 object-cover rounded-t" />
             <div className="mt-2 text-white flex flex-col justify-between flex-grow">
               <div>
                 <h3 className="text-lg font-bold">{movie.movie}</h3>
